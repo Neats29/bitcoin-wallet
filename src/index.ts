@@ -54,4 +54,4 @@ const seedBuffer = pbkdf2.pbkdf2Sync(
 const seed = seedBuffer.toString('hex')
 console.log(seed)
 // const privateKey = seed.substr(0, 256)
-// const chainKey = seed.substr(256, seed.length)
+// const chainKey = seed.substr(256, 256)
